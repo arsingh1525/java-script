@@ -1,0 +1,7 @@
+let a = prompt("hey whats you age");
+a = Number.parseInt(a);
+if (a < 0) {
+  alert("this is invalid age");
+} else {
+  alert("This is an invalid age");
+}
